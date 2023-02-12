@@ -5,8 +5,8 @@ class Category(models.Model):
 
 
     class Meta:
-        verboser_name = ""
-        verboser_name_plural = ""
+        verbose_name = ""
+        verbose_name_plural = ""
 
 
 
