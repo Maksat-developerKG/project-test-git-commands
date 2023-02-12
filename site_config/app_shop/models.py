@@ -8,7 +8,7 @@ class Category(models.Model):
         verboser_name = ""
         verboser_name_plural = ""
 
-        
+
 
     def __str__(self) -> str:
         return self.name
@@ -27,4 +27,3 @@ class Product(models.Model):
 
     def __str__(self) -> str:
         return self.name
-
